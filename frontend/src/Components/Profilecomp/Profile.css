@@ -1,0 +1,18 @@
+/* .profile { 
+    height: 75%;
+    margin-left: 50px;
+  } */
+  .profile {
+    margin: 70px 0px 0px ;
+    height: 39.25rem;
+    display: flex;
+    padding : 12px;
+}
+
+.ProfileC{
+  width: 72%;
+  margin: 0% 14%;
+  background-color: white;
+  margin-bottom: 75px;
+  border-radius: 20px;
+}

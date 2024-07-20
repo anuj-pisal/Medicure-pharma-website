@@ -1,0 +1,465 @@
+
+/* Navbar */
+.navdiv a {
+    text-decoration: none;
+}
+
+.navdiv {
+    display: flex;
+    background-color: #1C6758;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8); */
+}
+
+.navdiv li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navdiv li a {
+    color: white;
+    font-weight: bold;
+    margin-right: 16px;
+    margin-left: 8px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.navdiv li a:hover {
+    color: rgb(123, 255, 112);
+}
+
+.logo a {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.navdiv button {
+    margin-left: 10px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #1C6758;
+    font-weight: bold;
+    border: 3px solid black;
+    font-size: 13px;
+    box-shadow: 2px 3px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.navdiv button:hover {
+    background-color: rgb(123, 255, 112);
+    color: black;
+}
+
+/* order-online */
+
+.title h2 {
+    padding: 12px 0px 3px 26px;
+    color: #333333;
+}
+
+#med-orders-h1 {
+    padding: 32px 0px 3px 88px;
+    margin: 10px 109px;
+    color: #333333;
+}
+
+.med-orders {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.order-online {
+    border-radius: 10px;
+    min-width: 50%;
+    max-width: 51%;
+    margin: 10px 0px 10px 200px;
+    background-color: #10847e;
+}
+
+.order-online h2 {
+    color: white;
+    margin: 10px 0px 7px 12px;
+}
+
+.order-online-search input {
+    width: 300px;
+    height: 45px;
+    margin: 8px 0px 0px 4px;
+    padding: 11px;
+    border: none;
+}
+
+#notfound {
+    display: none;
+    margin: 10px 0px 7px 12px;
+    color: #ffe900;
+    font-weight: bolder;
+    filter: brightness(2);
+}
+
+.order-online-search button {
+    background-color: white;
+    padding: 11px;
+    margin-left: 12px;
+    height: 45px;
+    border: none;
+    width: 43px;
+    cursor: pointer;
+
+}
+
+.order-online-search button:hover {
+    background-color: rgb(123, 255, 112);
+}
+
+.med-start {
+    display: flex;
+    margin: 5px 12px;
+}
+
+.med-start p {
+    margin: 7px 20px 0px 5px;
+    color: white;
+    font-size: 14px;
+    opacity: 90%;
+}
+
+.med-start img {
+    margin-top: 7px;
+}
+
+.prescription {
+    min-width: 85%;
+    max-width: 86%;
+    margin: 10px 60px 10px -200px;
+    background-color: #10847e;
+    color: white;
+    border-radius: 10px;
+}
+
+.prescription h2 {
+    margin: 10px 0px 7px 12px;
+}
+
+.prescription ul li {
+    margin: 0px 0px 5px 45px;
+    font-size: 14px;
+}
+
+.prescription button {
+    border-radius: 10px;
+    margin: 10px 0px 13px 12px;
+    border: none;
+    padding: 10px 45px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.prescription button:hover {
+    transform: scale(1.031);
+}
+
+.hori-line {
+    margin: 20px 200px 20px 200px;
+}
+
+.medi-info {
+    display: flex;
+}
+
+.medi-info-img img {
+    width: 100px;
+    margin: 10px 35px 10px 230px;
+}
+
+.medi-info-text h3 {
+    margin: 36px 245px 10px 20px;
+    opacity: 75%;
+}
+
+/* Information */
+.page-info {
+    color: #333333;
+    padding: 12px 0px 10px 26px;
+}
+
+.page-info-content {
+    margin-left: 35px;
+}
+
+.page-info-content h3 {
+    color: #333333;
+    padding: 8px 0px 3px 40px;
+}
+
+.page-info-content p {
+    color: #333333;
+    opacity: 90%;
+    padding: 8px 150px 17px 40px;
+}
+
+.p-i-c-list {
+    color: #333333;
+    opacity: 90%;
+    padding: 0px 150px 0px 75px;
+}
+
+/* Shop by health concern */
+.shop-health {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.shop-health-med {
+    cursor: pointer;
+}
+
+.shop-health-med img {
+    width: 170px;
+    margin: 20px 20px 0px 20px;
+}
+
+.shop-health-med img:hover {
+    transform: scale(1.031);
+}
+
+.shop-health-med h3 {
+    text-align: center;
+    margin: 10px;
+    opacity: 70%;
+}
+
+.shop-health-brands {
+    cursor: pointer;
+}
+
+.shop-health-brands img {
+    width: 200px;
+    max-width: 200px;
+    margin: 20px 20px 0px 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.shop-health-brands img:hover {
+    transform: scale(1.031);
+}
+
+.shop-health-brands h3 {
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+    opacity: 70%;
+}
+
+/* Logos */
+.logo-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 50px;
+}
+
+.logo-content {
+    border: 1px solid #333333;
+    text-align: center;
+    padding: 33px 30px 10px 30px;
+    border-radius: 40px;
+    margin: 0px 20px;
+}
+
+.logo-content:hover {
+    background-color: #d4f4ed;
+}
+.logo-content h4{
+    margin: 15px 0px;
+    }
+    
+.logo-content p{
+    margin: 20px 0px;
+    opacity: 90%;
+}
+
+.title-center {
+    padding: 20px 0px 6px 26px;
+    color: #333333;
+    text-align: center;
+}
+
+/* Trending now */
+
+.trending-now {
+    margin: 5px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.trend-btn {
+    margin: 0px 375px;
+    border: none;
+    background-color: #EEF2E6;
+}
+
+.trend-btn i:hover {
+    transform: scale(1.2);
+}
+
+.trend-contain {
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.trend-contain::-webkit-scrollbar {
+    appearance: none;
+}
+
+.trend-box {
+    border: 1px solid #969393;
+    margin: 20px 10px 0px 10px;
+    border-radius: 20px;
+}
+
+.trend-box img {
+    width: 200px;
+    height: 150px;
+    margin: 20px 20px 10px 20px;
+    border: 1px solid #333333;
+}
+
+.trend-box h3 {
+    margin: 0px 0px 0px 20px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.trend-box h2 {
+    margin: 10px 0px 5px 20px;
+}
+
+.trend-box h5 {
+    margin: 5px 0px 5px 20px;
+    font-size: 13px;
+}
+
+.trend-box-rate {
+    margin: 15px 0px 0px 20px;
+    display: flex;
+}
+
+.trend-box p {
+    margin: 5px 0px 5px 20px;
+    font-size: 15px;
+    }
+    
+.trend-box button {
+    margin: 10px 0px 10px 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 45px;
+    font-weight: bold;
+    background-color: #1C6758;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.trend-box button:visited {
+    background: white;
+    color: #1C6758;
+}
+
+.trend-box button:hover {
+    transform: scale(1.031);
+}
+
+#reviews {
+    margin: 0px 0px 0px 10px;
+    font-size: 15px;
+}
+
+#mrp {
+    margin: 0px 0px 0px 20px;
+    opacity: 70%;
+    }
+    
+.mrp-class {
+    display: flex;
+    font-size: 15px;
+    }
+
+.mrp-class b{
+    margin-left: 10px;
+}
+.trend-box h2 mark {
+    font-size: 14px;
+    margin: 0px 0px 2px 8px;
+    padding: 1px 10px;
+    background-color: lawngreen;
+    border-radius: 2px;
+}
+
+.trend-box h2 #mark {
+    font-size: 14px;
+    margin: 0px 0px 2px 8px;
+    padding: 1px 10px;
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+}
+
+.trend-box h2 #b3 {
+    font-size: 14px;
+    margin: 0px 0px 2px 8px;
+    padding: 1px 10px;
+    background-color:pink;
+    border-radius: 2px;
+}
+
+.trend-box h2 #free-shiping {
+    font-size: 14px;
+    margin: 0px 0px 2px 8px;
+    padding: 1px 10px;
+    background-color:yellow;
+    border-radius: 2px;
+}
+
+.trend-box h2 #cash{
+    font-size: 14px;
+    margin: 0px 0px 2px 8px;
+    padding: 1px 10px;
+    background-color:lightskyblue;
+    border-radius: 2px;
+}
+
+/* last */
+
+.last {
+    text-align: center;
+    margin: 70px 20px;
+}
+
+.last img {
+    margin: 27px 20px;
+    filter: contrast(0.9);
+}
+
+#last1 {
+    color: #1C6758;
+    opacity: 80%;
+}
+
+#last2 {
+    color: #333333;
+    opacity: 90%;
+}
+
+#LabtestsOnMed {
+    opacity: 0%;
+}

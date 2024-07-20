@@ -1,0 +1,12 @@
+  .containerProfile h1 {
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 42px;
+    color: #343a40;
+    font-weight: bolder;
+    display: none;
+  }
+  
+  .containerProfile {
+   background-image: linear-gradient( to bottom right,#d4f4ed,#1C6758);
+  }

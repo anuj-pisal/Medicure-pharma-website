@@ -1,0 +1,50 @@
+.info-header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-header img{
+    margin-right: 20px;
+    height: 130px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+} 
+
+.buttons input{
+    padding: 5px 0px 5px 11px;
+    margin: 35px 0px 0px 25px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #1C6758;
+    color: #d4f4ed;
+    border: 1px solid black;
+} 
+.info-header button{
+    padding: 8px;
+    margin: 5px 0px 10px 25px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #1C6758;
+    color: #d4f4ed;
+    border: 1px solid black;
+} 
+
+.info-header button:hover{
+    transform: scale(1.032);
+    filter: brightness(0.95);
+}
+.buttons input:hover{
+    transform: scale(1.032);
+    filter: brightness(0.95);
+}
+
+.General button p {
+    position: relative;
+    bottom: 10px;
+}

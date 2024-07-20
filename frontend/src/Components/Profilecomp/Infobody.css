@@ -1,0 +1,25 @@
+.infobody {
+    margin-top: 50px;
+  }
+  
+  .infobody p {
+    margin: 15px auto;
+  }
+  
+  .infobody label {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .infobody input {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 15px;
+    /* border-color: rgb(235 228 228); */
+    border-style: solid;
+    padding: 10px;
+    border: 1px solid rgb(199, 204, 209);
+    background: rgb(220, 225, 225);
+    border-radius: 4px;
+  }
+  

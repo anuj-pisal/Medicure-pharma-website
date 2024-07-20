@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+        var status = '<%- JSON.stringify(status) %>';  
+        if(JSON.parse(status)=="verified"){
+            if(confirm("do you want to login")){
+                window.location.href = "http://localhost:3000/";
+            }
+        }
+    </script> -->
+    <style>
+        .forgot-pass {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(to bottom right, #d4f4ed, #1C6758);
+        }
+
+        .forget-content {
+            border: 2px solid;
+            border-radius: 20px;
+            background-color: white;
+            color: black;
+            padding: 0px 20px 20px;
+        }
+
+        #password {
+            padding: 5px;
+            margin: 0px 10px 10px 0px;
+            width: 90%;
+        }
+        
+        #submit {
+            margin: 0px 83px;
+            padding: 9px 20px;
+            color: white;
+            background-color: #1C6758;
+            border-radius: 20px;
+        }
+
+        #submit:hover {
+            filter: brightness(0.8);
+            transform: scale(1.083);            
+        }
+    </style>
+</head>
+<body>
+    <div class="forgot-pass">
+        <div class="forget-content">
+            <h2><%= email %></h2>
+            <form id="passwordForm" action="" method="post">
+                <h4>Enter password of at least 7 characters</h4>
+                <input type="password" name="password" id="password" placeholder="password" required />
+                <br>
+                <input type="submit" value="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById('passwordForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            alert('Password Updated');
+            window.location.href = "http://localhost:3000/login";
+        });
+    </script>
+</body>
+</html>
