@@ -1,7 +1,7 @@
 
 # 💊 Medicure Pharma Website
 
-Medicure is a responsive and user-friendly pharmacy web application developed to streamline online medical services. It includes features for browsing medicines, managing a cart, placing orders, and handling administrative tasks.
+**Medicure** is a responsive and user-friendly pharmacy web application designed to streamline online medical services. It includes features for browsing medicines, managing a cart, placing orders, and handling administrative tasks for users and admins.
 
 ---
 
@@ -10,7 +10,7 @@ Medicure is a responsive and user-friendly pharmacy web application developed to
 ```
 Medicure-pharma-website-main/
 ├── frontend/     # React-based user interface
-├── backend/      # Backend logic and APIs (Node.js or similar)
+├── backend/      # Backend logic and APIs (Node.js/Express)
 ```
 
 ---
@@ -31,91 +31,70 @@ Medicure-pharma-website-main/
 - View product details
 - Add items to cart
 - Place orders securely
-- Responsive design for mobile & desktop
+- Responsive design for both mobile and desktop
+- User authentication (Login/Register)
+- Admin dashboard for medicine management
 
 ### Getting Started
 
-1. Navigate to the frontend folder:
-
 ```bash
 cd frontend
-```
-
-2. Install dependencies:
-
-```bash
 npm install
-```
-
-3. Run the development server:
-
-```bash
 npm start
 ```
 
-App will be available at `http://localhost:3000`.
+Frontend will be live at `http://localhost:3000`.
 
 ---
 
 ## ⚙️ Backend
 
-> *(This assumes the backend uses Node.js. You can customize this section based on your actual backend stack.)*
+### Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB / Mongoose (if used)
+- JWT (for authentication)
+- CORS
 
 ### Features
 
-- RESTful APIs for product and user management
-- Order handling
-- Secure routing
+- RESTful API architecture
+- User authentication (JWT-based)
+- Medicine/product management
+- Order processing and status updates
+- Admin routes for CRUD operations
+- Secure route protection
 
-### To Run Backend
-
-1. Navigate to the backend folder:
+### Getting Started
 
 ```bash
 cd backend
-```
-
-2. Install dependencies:
-
-```bash
 npm install
-```
-
-3. Run the server:
-
-```bash
 npm start
 ```
 
----
+Backend server runs on `http://localhost:5000` or configured port in `.env`.
 
-## 🚀 Deployment
-
-This app can be deployed using:
-
-- **Frontend:** Netlify, Vercel, or GitHub Pages
-- **Backend:** Render, Railway, or Heroku
-
----
-
-## 📸 Screenshots
-
-> Include your UI screenshots here by saving images inside `frontend/public/screenshots/` and linking them below.
-
-```
-![Homepage](public/screenshots/homepage.png)
-![Medicine Detail](public/screenshots/detail.png)
-```
+> ⚠️ You may need to configure environment variables (like DB connection and JWT secret) in a `.env` file.
 
 ---
 
 ## 📄 License
 
-This project is licensed under an **Open License**. You are free to use, modify, and distribute the project under the terms mentioned in the license file.
+This project is licensed under an **Open License**. You are free to use, modify, and distribute this project under the terms mentioned in the LICENSE file.
 
 ---
 
 ## 👨‍💻 Author
 
 **Anuj Pisal**  
-GitHub: [@anuj-pisal](https://github.com/anuj-pisal)
+🔗 [GitHub - @anuj-pisal](https://github.com/anuj-pisal)
+
+---
+
+## 🙏 Acknowledgments
+
+- Open Source Libraries and Frameworks
+- React and Node.js Communities
+- UI/UX resources and icons
